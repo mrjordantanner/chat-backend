@@ -10,7 +10,7 @@ mongoose
 		useUnifiedTopology: true,
 	})
 	.then(() => {
-		console.log('connected to Caffeine Dreamzzzz');
+		console.log('connected to server');
 	})
 	.catch(() => {
 		console.log('connection failed!');
